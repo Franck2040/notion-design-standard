@@ -110,3 +110,38 @@ Présenter :
 6. les prochaines améliorations sans pression ni promesse de travail futur.
 
 **Langue de travail par défaut du dépôt : français.** Une interface en anglais doit être explicitement prévue, contrôlée et documentée.
+
+
+## 9. Contrat de faisabilité et de preuve — règle prioritaire (v1.1)
+
+**Une intention n'est pas une capacité, un appel API réussi n'est pas un test d'usage et une mise en page n'est pas un système fonctionnel.** Avant d'annoncer « je vais le faire » ou « c'est fait », appliquer les étapes suivantes :
+
+1. **Pré-vol de capacité** : identifier l'opération précise, l'outil effectivement connecté, ses permissions, sa couverture (lecture/écriture/configuration), le forfait Notion, les contraintes d'interface et la possibilité de tester. Distinguer « configuré par API », « cliquable depuis l'interface », « vérifié après clic » et « non accessible ». Vérifier dans la documentation officielle actuelle lorsque la capacité peut avoir évolué.
+2. **Matrice de faisabilité avant exécution** : pour chaque action, indiquer `confirmée`, `probable mais à tester`, `impossible avec les outils disponibles` ou `bloquée` ; fournir l'alternative native et l'outil ou le test indispensable. Le travail peut continuer sur les actions confirmées, sans faire attendre l'utilisateur ni dissimuler les limites.
+3. **Contrat de preuve** : relire l'objet écrit (ID/URL et propriétés/vues), tester le vrai parcours utilisateur lorsque l'interface est nécessaire et conserver la trace : état avant, opération, état après, résultat observé et éventuelles régressions. Une valeur sauvegardée prouve une sauvegarde, pas le résultat d'un bouton.
+4. **Langage calibré** : « présent », « configuré », « sauvegardé », « vérifié par lecture », « testé par clic » et « validé sur mobile » sont des états différents. Ne pas appeler `terminé` un flux non testé. Ne jamais inventer la couleur, l'action ou l'icône d'un bouton masqué derrière un bloc inconnu.
+5. **Arrêt constructif** : si une fonction est inaccessible, le signaler dès sa découverte, **sans multiplier les tentatives identiques**, poursuivre les travaux possibles et préparer une passation ciblée. Une fonctionnalité bloquante ne doit pas être reportée à la toute fin.
+6. **Réversibilité** : conserver les pages originales, les identifiants de bases et les relations ; journaliser chaque modification significative et son moyen d'annulation. Ne pas supprimer des essais ou brouillons d'origine incertaine au seul motif qu'ils sont vides.
+
+### Exemples de formulations correctes
+
+- Correct : « Le formulaire possède les propriétés Domaine et Type dans sa configuration ; l'enregistrement depuis le navigateur reste à tester. »
+- Incorrect : « Le bouton Nouvelle note fonctionne parfaitement » après la seule création d'un formulaire.
+- Correct : « Je peux modifier les icônes de page et les couleurs de blocs une à une, mais je n'ai pas vérifié l'existence d'un bouton natif qui recolore tout le workspace. »
+- Incorrect : « Le thème change d'un clic » sans preuve d'une action globale effectivement supportée.
+
+### Règle de livraison
+
+Chaque bilan présente `FAIT + PREUVE`, `TESTÉ + RÉSULTAT`, `NON TESTÉ`, `BLOQUÉ + RAISON` et `REPRISE`. Les « tests prévus » ne comptent jamais comme « tests passés ». Une affirmation reçue d'un autre agent doit être vérifiée dans l'état actuel du système ; son compte rendu reste une source secondaire.
+
+## 10. Identité visuelle non générique : icônes et couleurs
+
+- **Aucun emoji utilisé comme substitut décoratif d'icône** dans les nouveaux espaces, les boutons, les titres, la navigation, les cartes ou les libellés. Choisir une **icône native Notion** (notamment Lucide/monochrome lorsqu'elle est disponible) correspondant à la fonction. Différencier clairement ajouter (+), revenir (flèche), ouvrir (lien), modifier (crayon), chercher (loupe), archiver (archive), supprimer (corbeille).
+- Les **mentions natives de pages** reprennent en principe les icônes réelles des destinations, alors qu'un caractère emoji devant un lien est juste du texte : ne jamais confondre.
+- **Le bleu n'est pas la palette universelle.** Prendre une couleur d'accent principale contextuelle (vert sauge apprécié pour un espace personnel calme), puis utiliser avec mesure bleu, violet, ambre, rose, brun ou neutre selon la sémantique : données, création, apprentissage, alertes, archives. Ne jamais imposer un code couleur fixe sans essayer les vues à la fois en clair et en sombre.
+- Une couleur doit aider à **reconnaître ou décider**. Ne pas colorer tous les blocs, poser des dégradés sur toute la page ou utiliser une couverture différente partout par automatisme. Conserver des zones de repos visuel et un contraste accessible.
+- Préférer le rendu Notion natif aux illustrations génériques ; choisir les couvertures après justification de leur fonction (orientation, ambiance, identité) et contrôler le recadrage mobile.
+- Ne pas promettre un « bouton de recoloration globale » dans Notion : distinguer choix manuel des couleurs d'icônes/blocs, variantes de présentation, actions natives réellement disponibles, et automatisation externe explicitement autorisée et testée. Documenter les effets sur les autres utilisateurs.
+- Le design doit traduire **les besoins et données de cet espace**, pas recopier les six cartes génériques d'un template. Avant toute modification graphique, expliquer la décision UX et son effet sur l'action principale.
+
+Lire aussi [08 — Contrat d'exécution et direction visuelle](docs/08-agent-execution-and-visual-direction.md), document normatif qui précise les exemples, tests et états.
