@@ -42,7 +42,6 @@
 
 **Problème** : répondre à une question avec une source traçable et un statut de validité.
 
-`` ``
 ```text
 [ Recherche et filtres de type, domaine, statut ]
 [ Procédures vérifiées / récemment utilisées ] [ À examiner ]
