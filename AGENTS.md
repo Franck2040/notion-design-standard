@@ -145,3 +145,14 @@ Chaque bilan présente `FAIT + PREUVE`, `TESTÉ + RÉSULTAT`, `NON TESTÉ`, `BLO
 - Le design doit traduire **les besoins et données de cet espace**, pas recopier les six cartes génériques d'un template. Avant toute modification graphique, expliquer la décision UX et son effet sur l'action principale.
 
 Lire aussi [08 — Contrat d'exécution et direction visuelle](docs/08-agent-execution-and-visual-direction.md), document normatif qui précise les exemples, tests et états.
+
+## 11. Utiliser les trois modules de conception (v1.2)
+
+Lorsqu'une demande porte sur une nouvelle conception ou une refonte significative, consulter **avant de dessiner** :
+- [Moteur de direction](direction-engine/README.md) : formaliser le besoin et produire trois propositions **structurellement** distinctes ; comparer selon UX, données, faisabilité, mobile et identité.
+- [Bibliothèque de compositions](composition-library/README.md) : sélectionner une composition adaptée, sans copier le même cockpit pour tous les domaines.
+- [Catalogue de composants](component-catalog/README.md) : sélectionner uniquement des fonctions natives accessibles ; séparer widgets externes, vues soumises au forfait et opérations testables.
+
+**Interdiction de confondre** : une fiche documentaire, un schéma textuel ou un fichier manifest avec un composant installé dans Notion. Pour chaque élément : capacités constatées, permissions, connexion, mise en œuvre, test et preuve. Pas de copie de templates tiers, ni d'exposition de notes privées dans le dépôt GitHub public.
+
+Pour une modification ponctuelle, ne pas imposer tout le processus de divergence ; protéger les usages existants et faire la plus petite retouche utile.
