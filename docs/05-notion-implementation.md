@@ -132,3 +132,10 @@ Ne pas copier mécaniquement les réglages d'un modèle tiers ; reconstruire des
 - https://developers.notion.com/
 
 Ne jamais considérer un article ou une vidéo de 2024–2026 comme preuve d'une capacité immuable en 2036.
+
+
+## Addendum v1.1 — faisabilité avant annonce
+
+Avant toute promesse concernant un bouton, un formulaire ou une recoloration, vérifier les outils réellement disponibles, les permissions, le forfait et la possibilité de tester en interface. Un bouton présent dans un export sous forme de bloc inconnu ne permet pas d'en déduire les actions. La création d'un formulaire ne prouve pas que ses champs sont configurés, ni qu'il enregistre les données. Distinguer `configuré`, `lecture vérifiée` et `testé par soumission`. Signaler immédiatement les limites du connecteur et proposer une validation ciblée en navigateur, sans affirmations prématurées.
+
+Notion permet de personnaliser manuellement les icônes de pages et la couleur de certains blocs et textes. Ne pas fabriquer une capacité de bouton natif de changement global des couleurs d'icônes/blocs : elle doit être démontrée sur la version et le plan utilisé. Ne pas confondre mode clair/sombre des préférences avec palette d'espace. Voir [08](08-agent-execution-and-visual-direction.md).
