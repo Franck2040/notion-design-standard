@@ -131,3 +131,10 @@ Correction : réduire widget / déplacer vers la page « Vie »
 Données d'origine : conservées
 Statut : non validé, action corrective nécessaire
 ```
+
+
+## Addendum v1.1 — preuve et communication
+
+Un résultat n'est `PASS` que si l'action annoncée a été observée et son état final vérifié. La présence d'un bouton, d'une vue ou d'une relation n'est qu'une preuve structurelle. Pour chaque test : noter méthode, contexte, objet créé (de test), effet attendu, effet constaté, échec et moyens de retour arrière. Les contrôles d'interface sur desktop/mobile ne peuvent pas être déclarés `PASS` sur la seule base de réponses API.
+
+Ajouter à la recette : zéro emoji de substitution dans l'UI neuve, icônes sémantiques des boutons, cohérence palette sans obligation de bleu, maintien des notes et de leurs versions, des essais non identifiés et des relations. Une fonction bloquée doit être signalée dès découverte et inscrite dans une passation ; ne pas dire « terminé » si un critère P0 n'est pas testé. Voir [08](08-agent-execution-and-visual-direction.md).
