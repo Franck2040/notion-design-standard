@@ -1,5 +1,4 @@
 {
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
   "project": "Notion Design Standard",
   "revision": "1.0.0",
   "reviewed_at": "2026-11-13",
@@ -8,7 +7,8 @@
     "Do not treat external HTML/CSS components as native Notion blocks.",
     "Every action requires permissions and interaction test.",
     "Do not copy third-party template assets without rights.",
-    "Use native iconography, not text emojis for buttons."
+    "Use native iconography, not text emojis for buttons.",
+    "Manifest is an inventory, not an importable Notion component package."
   ],
   "components": [
     {
@@ -419,5 +419,6 @@
         "mobile checked"
       ]
     }
-  ]
+  ],
+  "manifest_format": "component-inventory-v1"
 }
