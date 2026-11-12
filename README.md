@@ -102,3 +102,16 @@ Le manuel reste le référentiel de principes. Les nouveaux modules servent à p
 `AGENTS.md` → `direction-engine` (besoin et trois concepts) → `composition-library` (pattern retenu) → `component-catalog` (capacités natives) → test réel et rapport PASS/FAIL/NON TESTÉ.
 
 **Limite importante** : ces fichiers sont des guides et contrats de conception, pas une bibliothèque de composants importables ni des maquettes déjà testées visuellement. Les références privées étudiées ne sont pas publiées dans ce dépôt ; aucune copie de template tiers ou d'asset propriétaire n'est incluse.
+
+
+## Modules v1.3 — Recherche contextuelle et divergence (13 novembre 2026)
+
+**[Étape 04 — Recherche adaptée au domaine](research-playbook/README.md)** : inventaire des utilisateurs et tâches réelles, analyse des flux, choix des méthodes de recherche, preuve et niveaux d'incertitude. Utiliser [la fiche d'enquête](research-playbook/research-brief-template.md) et [les scénarios de démonstration](research-playbook/examples.md).
+
+**[Étape 05 — Divergence puis sélection](divergence-selection/README.md)** : générer trois architectures de parcours véritablement différentes, contrôler les contraintes natives, appliquer les critères éliminatoires, sélectionner une direction motivée, construire un prototype réversible, tester et réviser. Utiliser [la grille de comparaison](divergence-selection/comparison-template.md) et [les exemples](divergence-selection/examples.md).
+
+### Chaîne de conception mise à jour
+
+`AGENTS.md` → `research-playbook` (faits, contexte et questions) → `divergence-selection` (3 concepts et arbitrages) → `direction-engine` (identité de la solution retenue) → `composition-library` (composition) → `component-catalog` (capacités natives) → prototype → tests réels → documentation.
+
+La chaîne est proportionnelle à la mission : ne pas imposer trois prototypes pour corriger une simple icône. **Les étapes 1 à 3 documentent des composants et compositions, mais n'offrent pas encore une bibliothèque de composants visuellement testés et importables**. Les étapes 4 à 5 sont des protocoles publiés, pas des tests déjà effectués.
