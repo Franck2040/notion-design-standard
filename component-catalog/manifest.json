@@ -1,0 +1,423 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "project": "Notion Design Standard",
+  "revision": "1.0.0",
+  "reviewed_at": "2026-11-13",
+  "confidence": "Capability classification based on documentation review, not tested inside every user account.",
+  "rules": [
+    "Do not treat external HTML/CSS components as native Notion blocks.",
+    "Every action requires permissions and interaction test.",
+    "Do not copy third-party template assets without rights.",
+    "Use native iconography, not text emojis for buttons."
+  ],
+  "components": [
+    {
+      "id": "N01",
+      "slug": "page",
+      "notion_kind": "page",
+      "intent": "content",
+      "scope": "native",
+      "condition": "page",
+      "implementation_status": "documented-not-live-tested",
+      "reference": "component-catalog/native-components.md",
+      "required_evidence": [
+        "source identified",
+        "capability verified",
+        "configuration read back",
+        "interaction tested when applicable",
+        "mobile checked"
+      ]
+    },
+    {
+      "id": "N02",
+      "slug": "headings",
+      "notion_kind": "heading",
+      "intent": "hierarchy",
+      "scope": "native",
+      "condition": "page",
+      "implementation_status": "documented-not-live-tested",
+      "reference": "component-catalog/native-components.md",
+      "required_evidence": [
+        "source identified",
+        "capability verified",
+        "configuration read back",
+        "interaction tested when applicable",
+        "mobile checked"
+      ]
+    },
+    {
+      "id": "N03",
+      "slug": "callout",
+      "notion_kind": "callout",
+      "intent": "guidance",
+      "scope": "native",
+      "condition": "page",
+      "implementation_status": "documented-not-live-tested",
+      "reference": "component-catalog/native-components.md",
+      "required_evidence": [
+        "source identified",
+        "capability verified",
+        "configuration read back",
+        "interaction tested when applicable",
+        "mobile checked"
+      ]
+    },
+    {
+      "id": "N04",
+      "slug": "columns",
+      "notion_kind": "columns",
+      "intent": "layout",
+      "scope": "native",
+      "condition": "page",
+      "implementation_status": "documented-not-live-tested",
+      "reference": "component-catalog/native-components.md",
+      "required_evidence": [
+        "source identified",
+        "capability verified",
+        "configuration read back",
+        "interaction tested when applicable",
+        "mobile checked"
+      ]
+    },
+    {
+      "id": "N05",
+      "slug": "toggle",
+      "notion_kind": "toggle",
+      "intent": "progressive-disclosure",
+      "scope": "native",
+      "condition": "page",
+      "implementation_status": "documented-not-live-tested",
+      "reference": "component-catalog/native-components.md",
+      "required_evidence": [
+        "source identified",
+        "capability verified",
+        "configuration read back",
+        "interaction tested when applicable",
+        "mobile checked"
+      ]
+    },
+    {
+      "id": "N06",
+      "slug": "page-mention",
+      "notion_kind": "mention",
+      "intent": "navigation",
+      "scope": "native",
+      "condition": "page",
+      "implementation_status": "documented-not-live-tested",
+      "reference": "component-catalog/native-components.md",
+      "required_evidence": [
+        "source identified",
+        "capability verified",
+        "configuration read back",
+        "interaction tested when applicable",
+        "mobile checked"
+      ]
+    },
+    {
+      "id": "N07",
+      "slug": "synced-block",
+      "notion_kind": "synced_block",
+      "intent": "reuse",
+      "scope": "native",
+      "condition": "page",
+      "implementation_status": "documented-not-live-tested",
+      "reference": "component-catalog/native-components.md",
+      "required_evidence": [
+        "source identified",
+        "capability verified",
+        "configuration read back",
+        "interaction tested when applicable",
+        "mobile checked"
+      ]
+    },
+    {
+      "id": "N08",
+      "slug": "page-button",
+      "notion_kind": "button",
+      "intent": "action",
+      "scope": "native",
+      "condition": "plan-and-permission-check",
+      "implementation_status": "documented-not-live-tested",
+      "reference": "component-catalog/native-components.md",
+      "required_evidence": [
+        "source identified",
+        "capability verified",
+        "configuration read back",
+        "interaction tested when applicable",
+        "mobile checked"
+      ]
+    },
+    {
+      "id": "N09",
+      "slug": "database",
+      "notion_kind": "database",
+      "intent": "source-of-truth",
+      "scope": "native",
+      "condition": "database",
+      "implementation_status": "documented-not-live-tested",
+      "reference": "component-catalog/native-components.md",
+      "required_evidence": [
+        "source identified",
+        "capability verified",
+        "configuration read back",
+        "interaction tested when applicable",
+        "mobile checked"
+      ]
+    },
+    {
+      "id": "N10",
+      "slug": "list-view",
+      "notion_kind": "list",
+      "intent": "quick-reading",
+      "scope": "native",
+      "condition": "database-view",
+      "implementation_status": "documented-not-live-tested",
+      "reference": "component-catalog/native-components.md",
+      "required_evidence": [
+        "source identified",
+        "capability verified",
+        "configuration read back",
+        "interaction tested when applicable",
+        "mobile checked"
+      ]
+    },
+    {
+      "id": "N11",
+      "slug": "table-view",
+      "notion_kind": "table",
+      "intent": "editing",
+      "scope": "native",
+      "condition": "database-view",
+      "implementation_status": "documented-not-live-tested",
+      "reference": "component-catalog/native-components.md",
+      "required_evidence": [
+        "source identified",
+        "capability verified",
+        "configuration read back",
+        "interaction tested when applicable",
+        "mobile checked"
+      ]
+    },
+    {
+      "id": "N12",
+      "slug": "board-view",
+      "notion_kind": "board",
+      "intent": "workflow",
+      "scope": "native",
+      "condition": "database-view",
+      "implementation_status": "documented-not-live-tested",
+      "reference": "component-catalog/native-components.md",
+      "required_evidence": [
+        "source identified",
+        "capability verified",
+        "configuration read back",
+        "interaction tested when applicable",
+        "mobile checked"
+      ]
+    },
+    {
+      "id": "N13",
+      "slug": "gallery-view",
+      "notion_kind": "gallery",
+      "intent": "visual-collection",
+      "scope": "native",
+      "condition": "database-view",
+      "implementation_status": "documented-not-live-tested",
+      "reference": "component-catalog/native-components.md",
+      "required_evidence": [
+        "source identified",
+        "capability verified",
+        "configuration read back",
+        "interaction tested when applicable",
+        "mobile checked"
+      ]
+    },
+    {
+      "id": "N14",
+      "slug": "calendar-view",
+      "notion_kind": "calendar",
+      "intent": "dated-items",
+      "scope": "native",
+      "condition": "database-view",
+      "implementation_status": "documented-not-live-tested",
+      "reference": "component-catalog/native-components.md",
+      "required_evidence": [
+        "source identified",
+        "capability verified",
+        "configuration read back",
+        "interaction tested when applicable",
+        "mobile checked"
+      ]
+    },
+    {
+      "id": "N15",
+      "slug": "timeline-view",
+      "notion_kind": "timeline",
+      "intent": "durations",
+      "scope": "native",
+      "condition": "plan-and-permission-check",
+      "implementation_status": "documented-not-live-tested",
+      "reference": "component-catalog/native-components.md",
+      "required_evidence": [
+        "source identified",
+        "capability verified",
+        "configuration read back",
+        "interaction tested when applicable",
+        "mobile checked"
+      ]
+    },
+    {
+      "id": "N16",
+      "slug": "form-view",
+      "notion_kind": "form",
+      "intent": "capture",
+      "scope": "native",
+      "condition": "plan-and-permission-check",
+      "implementation_status": "documented-not-live-tested",
+      "reference": "component-catalog/native-components.md",
+      "required_evidence": [
+        "source identified",
+        "capability verified",
+        "configuration read back",
+        "interaction tested when applicable",
+        "mobile checked"
+      ]
+    },
+    {
+      "id": "N17",
+      "slug": "database-button",
+      "notion_kind": "database_button",
+      "intent": "workflow-action",
+      "scope": "native",
+      "condition": "plan-and-permission-check",
+      "implementation_status": "documented-not-live-tested",
+      "reference": "component-catalog/native-components.md",
+      "required_evidence": [
+        "source identified",
+        "capability verified",
+        "configuration read back",
+        "interaction tested when applicable",
+        "mobile checked"
+      ]
+    },
+    {
+      "id": "N18",
+      "slug": "relation-rollup",
+      "notion_kind": "relation_rollup",
+      "intent": "linked-data",
+      "scope": "native",
+      "condition": "database",
+      "implementation_status": "documented-not-live-tested",
+      "reference": "component-catalog/native-components.md",
+      "required_evidence": [
+        "source identified",
+        "capability verified",
+        "configuration read back",
+        "interaction tested when applicable",
+        "mobile checked"
+      ]
+    },
+    {
+      "id": "N19",
+      "slug": "formula",
+      "notion_kind": "formula",
+      "intent": "derived-data",
+      "scope": "native",
+      "condition": "database",
+      "implementation_status": "documented-not-live-tested",
+      "reference": "component-catalog/native-components.md",
+      "required_evidence": [
+        "source identified",
+        "capability verified",
+        "configuration read back",
+        "interaction tested when applicable",
+        "mobile checked"
+      ]
+    },
+    {
+      "id": "N20",
+      "slug": "database-page-layout",
+      "notion_kind": "layout",
+      "intent": "detail-organization",
+      "scope": "native",
+      "condition": "all-pages-in-database",
+      "implementation_status": "documented-not-live-tested",
+      "reference": "component-catalog/native-components.md",
+      "required_evidence": [
+        "source identified",
+        "capability verified",
+        "configuration read back",
+        "interaction tested when applicable",
+        "mobile checked"
+      ]
+    },
+    {
+      "id": "N21",
+      "slug": "chart-view",
+      "notion_kind": "chart",
+      "intent": "metrics",
+      "scope": "native",
+      "condition": "plan-and-quota-check",
+      "implementation_status": "documented-not-live-tested",
+      "reference": "component-catalog/native-components.md",
+      "required_evidence": [
+        "source identified",
+        "capability verified",
+        "configuration read back",
+        "interaction tested when applicable",
+        "mobile checked"
+      ]
+    },
+    {
+      "id": "N22",
+      "slug": "dashboard-view",
+      "notion_kind": "dashboard",
+      "intent": "multi-widget-dashboard",
+      "scope": "native-restricted",
+      "condition": "business-enterprise",
+      "implementation_status": "documented-not-live-tested",
+      "reference": "component-catalog/native-components.md",
+      "required_evidence": [
+        "source identified",
+        "capability verified",
+        "configuration read back",
+        "interaction tested when applicable",
+        "mobile checked"
+      ]
+    },
+    {
+      "id": "N23",
+      "slug": "external-embed",
+      "notion_kind": "embed",
+      "intent": "external-information",
+      "scope": "external",
+      "condition": "privacy-and-availability-check",
+      "implementation_status": "documented-not-live-tested",
+      "reference": "component-catalog/native-components.md",
+      "required_evidence": [
+        "source identified",
+        "capability verified",
+        "configuration read back",
+        "interaction tested when applicable",
+        "mobile checked"
+      ]
+    },
+    {
+      "id": "N24",
+      "slug": "file-media",
+      "notion_kind": "file",
+      "intent": "evidence",
+      "scope": "native",
+      "condition": "license-and-permission-check",
+      "implementation_status": "documented-not-live-tested",
+      "reference": "component-catalog/native-components.md",
+      "required_evidence": [
+        "source identified",
+        "capability verified",
+        "configuration read back",
+        "interaction tested when applicable",
+        "mobile checked"
+      ]
+    }
+  ]
+}
