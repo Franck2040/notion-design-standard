@@ -156,3 +156,14 @@ Lorsqu'une demande porte sur une nouvelle conception ou une refonte significativ
 **Interdiction de confondre** : une fiche documentaire, un schéma textuel ou un fichier manifest avec un composant installé dans Notion. Pour chaque élément : capacités constatées, permissions, connexion, mise en œuvre, test et preuve. Pas de copie de templates tiers, ni d'exposition de notes privées dans le dépôt GitHub public.
 
 Pour une modification ponctuelle, ne pas imposer tout le processus de divergence ; protéger les usages existants et faire la plus petite retouche utile.
+
+
+## 12. Recherche et divergence — règles obligatoires pour les projets significatifs (v1.3)
+
+1. Lire [Étape 04 — Recherche adaptée au domaine](research-playbook/README.md) et produire une [fiche de brief](research-playbook/research-brief-template.md) avant de choisir layout, palette ou composants. Déclarer les preuves `observé`, `déclaré`, `officiel`, `avis isolé`, `hypothèse`. Aucun entretien ou test fictif ne peut être présenté comme réel.
+2. Pour une **nouvelle page spécialisée ou une refonte significative**, lire [Étape 05 — Divergence puis sélection](divergence-selection/README.md) et produire **trois propositions structurellement différentes**. Ne pas se contenter de changer la couleur ou l'ordre de mêmes cartes. Comparer via la [grille de sélection](divergence-selection/comparison-template.md).
+3. Vérifier d'abord les critères éliminatoires : perte de données, droits insuffisants, action fictive, dépendances Notion indisponibles, licence non établie ou accessibilité insuffisante.
+4. Justifier le choix et ses compromis ; prototyper **une** direction de façon réversible, puis tester les vrais parcours et leurs états mobile/erreur/vides. Remettre `PASS`, `FAIL` ou `NON TESTÉ` avec les preuves.
+5. **Proportionnalité** : pour une petite retouche sans véritable choix architectural, ne pas multiplier études et maquettes. Prioriser la plus petite intervention utile et testable.
+
+Tout agent doit annoncer les limites d'outil dès qu'elles sont détectées, avant de promettre un bouton Notion opérationnel ou un test mobile.
