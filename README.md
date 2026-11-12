@@ -88,3 +88,17 @@ Ce dépôt est **public et volontairement générique**. Pas de données personn
 ## Mise à jour v1.1 — 12 novembre 2026
 
 Avant toute intervention, lire en priorité les sections 9 et 10 de [AGENTS.md](AGENTS.md) et le [chapitre 08](docs/08-agent-execution-and-visual-direction.md). Elles rendent obligatoires l'audit des capacités réelles, les preuves distinctes de configuration/test, le signalement précoce des limites et les icônes natives sans emojis de substitution. Le design n'est pas limité au bleu et aucune recoloration globale par bouton Notion ne doit être promise sans preuve.
+
+## Modules opérationnels v1.2 — 13 novembre 2026
+
+Le manuel reste le référentiel de principes. Les nouveaux modules servent à produire des concepts diversifiés et à décider **comment** les assembler dans Notion, avec vérification technique :
+
+1. **[Moteur de direction artistique](direction-engine/README.md)** : diagnostic du besoin, génération de trois compositions vraiment différentes, critères de choix, preuve et limites. Voir aussi les [six directions visuelles](direction-engine/visual-directions.md) et les [trois cas comparés](direction-engine/selection-examples.md).
+2. **[Bibliothèque de compositions](composition-library/README.md)** : dix patterns conçus selon la décision utilisateur, avec [fiches détaillées](composition-library/patterns.md), variantes mobile, risques et tests.
+3. **[Catalogue de composants natifs](component-catalog/README.md)** : 24 composants, [recettes détaillées](component-catalog/native-components.md), [8 assemblages](component-catalog/composite-patterns.md) et [manifest JSON](component-catalog/manifest.json).
+
+### Ordre d'exploitation par une IA
+
+`AGENTS.md` → `direction-engine` (besoin et trois concepts) → `composition-library` (pattern retenu) → `component-catalog` (capacités natives) → test réel et rapport PASS/FAIL/NON TESTÉ.
+
+**Limite importante** : ces fichiers sont des guides et contrats de conception, pas une bibliothèque de composants importables ni des maquettes déjà testées visuellement. Les références privées étudiées ne sont pas publiées dans ce dépôt ; aucune copie de template tiers ou d'asset propriétaire n'est incluse.
