@@ -137,3 +137,8 @@ Un élément décoratif est acceptable si le temps d'accès aux tâches n'augmen
 | Widgets externes | Via embeds compatibles | Intégration sur mesure |
 
 Il faut d'abord choisir le **produit** : template Notion ou application web intégrée. Ne jamais promettre l'expérience du second avec les possibilités du premier.
+
+
+## Addendum v1.1 — direction visuelle à vérifier
+
+Ne pas confondre schémas ASCII d'exemple et injonction d'utiliser des caractères Unicode ou emojis comme icônes dans les pages. Pour une interface réelle : icônes natives Notion homogènes, signification des actions, pas d'emojis de décoration. Le bleu n'est pas la seule couleur : partir d'un fond calme et d'un accent choisi selon l'espace (vert sauge possible), ajouter d'autres couleurs par nécessité sémantique et tester contraste et mobile. Ne pas automatiser l'ajout de couvertures, de gradients ou de cartes colorées sans diagnostic des usages. Un menu latéral par mentions de pages doit reprendre leurs véritables icônes ; un emoji devant un lien n'est pas une icône native. Voir [08](08-agent-execution-and-visual-direction.md).
