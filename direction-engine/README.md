@@ -120,3 +120,13 @@ Un `score_estime` doit rester une appréciation de conception jusqu'aux tests ut
 - [Notion — mises en page de bases](https://www.notion.com/fr/help/layouts)
 - [AgentsORG/DESIGN](https://github.com/AgentsORG/DESIGN) : séparation intention, contraintes, composants et règles, **architecture étudiée, code non copié**.
 - [Référentiel actuel](../docs/08-agent-execution-and-visual-direction.md) : contrats de preuve et iconographie.
+
+
+## Dépendances amont — étapes 04 et 05
+
+Avant de choisir une direction visuelle sur un projet nouveau ou complexe :
+
+- [Rechercher le domaine et les usages](../research-playbook/README.md) : utilisateur, environnement, données, tâches, frictions et preuves.
+- [Faire diverger puis sélectionner](../divergence-selection/README.md) : trois concepts **structurellement** distincts, veto de faisabilité, comparaison et test.
+
+La génération de trois variantes artistiques dans ce chapitre ne remplace pas les **trois hypothèses de parcours/layout** de l'étape 05. Commencer par la structure utile ; ensuite seulement affiner identité, rythme, couleurs et iconographie de la direction retenue. Si l'enjeu le justifie, comparer visuellement plusieurs directions pour une même structure. Ne pas dépenser du temps à produire neuf maquettes combinatoires.
