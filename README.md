@@ -18,6 +18,7 @@ Lire les documents dans l'ordre, **sans remplacer les démonstrations par un ré
 | 6 | [05 — Implémentation native](docs/05-notion-implementation.md) | Boutons, vues, panneaux, thèmes, bilinguisme, limites, widgets |
 | 7 | [06 — Qualité & recette](docs/06-acceptance-tests.md) | Checklist mesurable, tests de non-régression, performances, accessibilité |
 | 8 | [07 — Éthique, licence & vente](docs/07-commercialization.md) | Copie autorisée ou non, confidentialité, version commerciale, documentation |
+| 8 bis | [08 — Exécution, preuves et direction visuelle](docs/08-agent-execution-and-visual-direction.md) | Faisabilité avant promesse, preuve d'exécution, icônes natives, palette non limitée au bleu, erreurs à éviter |
 | 9 | [Exemple guidé : du chaos au cockpit](examples/chaos-to-cockpit.md) | Cas pratique complet : besoins → schéma → interface → migration → validation |
 | 10 | [Décisions et changements](DECISIONS.md) | Historique des hypothèses, décisions acceptées et questions ouvertes |
 
@@ -82,3 +83,8 @@ Ce dépôt est **public et volontairement générique**. Pas de données personn
 
 ---
 **Objectif final :** qu'un designer, un développeur et une IA puissent discuter du même système avec le même vocabulaire, le même niveau d'exigence et une méthode reproductible.
+
+
+## Mise à jour v1.1 — 12 novembre 2026
+
+Avant toute intervention, lire en priorité les sections 9 et 10 de [AGENTS.md](AGENTS.md) et le [chapitre 08](docs/08-agent-execution-and-visual-direction.md). Elles rendent obligatoires l'audit des capacités réelles, les preuves distinctes de configuration/test, le signalement précoce des limites et les icônes natives sans emojis de substitution. Le design n'est pas limité au bleu et aucune recoloration globale par bouton Notion ne doit être promise sans preuve.
