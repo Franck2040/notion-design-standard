@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 782" width="1160" height="782" role="img" aria-label="La bibliothèque de preuves : maquette annotée bureau et mobile avec contre-exemple">
+<title>La bibliothèque de preuves</title>
+<desc>Retrouver une source par question et distinguer son statut. Capturer la provenance : Le formulaire demande la source.. Trier par maturité : À qualifier ne veut pas dire rejetée.. Relier plutôt que dupliquer : Une source peut servir deux questions.. Mobile : une liste compacte : Laisser les détails dans la fiche. Un même article finit copié dans plusieurs dossiers. Une fiche source, des relations et des vues par question.</desc>
+<rect x="0" y="0" width="1160" height="782" rx="0" fill="#f7f4ee" stroke="none"/>
+<rect x="0" y="0" width="1160" height="7" rx="0" fill="#8b512d" stroke="none"/>
+<text x="35" y="43" fill="#8b512d" font-size="13" font-weight="700" font-family="sans-serif">ATLAS NOTION   /   03   /   RECHERCHE DOCUMENTAIRE</text>
+<text x="35" y="95" fill="#24211d" font-size="44" font-weight="400" font-family="serif">La bibliothèque de preuves</text>
+<text x="36" y="125" fill="#54504a" font-size="16" font-weight="400" font-family="sans-serif">Retrouver une source par question et distinguer son statut.</text>
+<rect x="891" y="38" width="233" height="29" rx="14" fill="#f5eadd" stroke="none"/>
+<text x="906" y="57" fill="#8b512d" font-size="11" font-weight="700" font-family="sans-serif">MAQUETTE · DONNÉES FICTIVES</text>
+<text x="36" y="171" fill="#49443e" font-size="12" font-weight="700" font-family="sans-serif">01   VUE BUREAU</text>
+<text x="846" y="171" fill="#49443e" font-size="12" font-weight="700" font-family="sans-serif">02   VUE MOBILE</text>
+<rect x="35" y="186" width="783" height="363" rx="12" fill="#fff" stroke="#d9d2c6"/>
+<rect x="846" y="186" width="278" height="363" rx="12" fill="#fff" stroke="#d9d2c6"/>
+<rect x="36" y="187" width="132" height="361" rx="11" fill="#f3f1eb" stroke="none"/>
+<path d="M168 187L168 548" stroke="#ded8ce"/>
+<text x="50" y="218" fill="#8b512d" font-size="12" font-weight="700" font-family="sans-serif">BIB   /   ESPACE</text>
+<rect x="45" y="238" width="111" height="27" rx="5" fill="#f5eadd" stroke="none"/>
+<text x="55" y="256" fill="#8b512d" font-size="12" font-weight="700" font-family="sans-serif">Accueil</text>
+<text x="55" y="289" fill="#5c554d" font-size="12" font-weight="400" font-family="sans-serif">Bibliothèque</text>
+<text x="55" y="322" fill="#5c554d" font-size="12" font-weight="400" font-family="sans-serif">Archives</text>
+<rect x="189" y="206" width="606" height="76" rx="7" fill="#4f3529" stroke="none"/>
+<path d="M675 281 Q710 205 793 218 M713 281 Q746 226 794 237 M745 281 Q772 246 795 250" fill="none" stroke="#ffffff" opacity=".23"/>
+<text x="204" y="234" fill="#eee9e2" font-size="10" font-weight="700" font-family="sans-serif">RECHERCHE DOCUMENTAIRE</text>
+<text x="204" y="263" fill="white" font-size="25" font-weight="400" font-family="serif">La bibliothèque de preuves</text>
+<rect x="191" y="296" width="163" height="32" rx="5" fill="#f5eadd" stroke="none"/>
+<path d="M200 312L208 312" stroke="#8b512d"/>
+<path d="M204 308L204 316" stroke="#8b512d"/>
+<text x="217" y="317" fill="#8b512d" font-size="13" font-weight="700" font-family="sans-serif">Ajouter une source</text>
+<circle cx="365" cy="312" r="11" fill="#8b512d" stroke="white" stroke-width="1.5"/>
+<text x="361.6" y="316" fill="white" font-size="11" font-weight="700" font-family="sans-serif">1</text>
+<rect x="614" y="348" width="180" height="158" rx="7" fill="#f5eadd" stroke="none"/>
+<text x="628" y="371" fill="#8b512d" font-size="10" font-weight="700" font-family="sans-serif">QUESTION ACTIVE</text>
+<text x="628" y="401" fill="#2b2622" font-size="13" font-weight="700" font-family="sans-serif">Usages hors ligne</text>
+<text x="628" y="424" fill="#514841" font-size="11" font-weight="400" font-family="sans-serif">3 sources à qualifier</text>
+<circle cx="783" cy="354" r="11" fill="#8b512d" stroke="white" stroke-width="1.5"/>
+<text x="779.6" y="358" fill="white" font-size="11" font-weight="700" font-family="sans-serif">3</text>
+<text x="192" y="359" fill="#8b512d" font-size="12" font-weight="700" font-family="sans-serif">À qualifier</text>
+<text x="324" y="359" fill="#5f5750" font-size="12" font-weight="400" font-family="sans-serif">Références</text>
+<text x="456" y="359" fill="#5f5750" font-size="12" font-weight="400" font-family="sans-serif">Par question</text>
+<path d="M191 369L593 369" stroke="#ded8ce"/>
+<path d="M191 369h100" stroke="#8b512d" stroke-width="2"/>
+<circle cx="591" cy="352" r="11" fill="#8b512d" stroke="white" stroke-width="1.5"/>
+<text x="587.6" y="356" fill="white" font-size="11" font-weight="700" font-family="sans-serif">2</text>
+<text x="194" y="400" fill="#292622" font-size="13" font-weight="700" font-family="sans-serif">Carnet de terrain A</text>
+<rect x="478" y="385" width="115" height="22" rx="4" fill="#f5eadd" stroke="none"/>
+<text x="486" y="400" fill="#8b512d" font-size="10" font-weight="700" font-family="sans-serif">À qualifier</text>
+<path d="M191 414L593 414" stroke="#ded8ce"/>
+<text x="194" y="439" fill="#292622" font-size="13" font-weight="700" font-family="sans-serif">Étude longitudinale</text>
+<rect x="478" y="424" width="115" height="22" rx="4" fill="#f5f2ed" stroke="none"/>
+<text x="486" y="439" fill="#554e46" font-size="10" font-weight="700" font-family="sans-serif">Vérifiée</text>
+<path d="M191 453L593 453" stroke="#ded8ce"/>
+<text x="194" y="478" fill="#292622" font-size="13" font-weight="700" font-family="sans-serif">Notes du séminaire</text>
+<rect x="478" y="463" width="115" height="22" rx="4" fill="#f5f2ed" stroke="none"/>
+<text x="486" y="478" fill="#554e46" font-size="10" font-weight="700" font-family="sans-serif">Secondaire</text>
+<path d="M191 492L593 492" stroke="#ded8ce"/>
+<text x="192" y="528" fill="#625950" font-size="11" font-weight="400" font-family="sans-serif">Vue liée · exemple de trois fiches</text>
+<rect x="860" y="201" width="250" height="60" rx="6" fill="#4f3529" stroke="none"/>
+<text x="873" y="222" fill="#eee9e2" font-size="9" font-weight="700" font-family="sans-serif">RECHERCHE DOCUMENTAIRE</text>
+<text x="873" y="245" fill="white" font-size="16" font-weight="400" font-family="serif">La bibliothèque de preuves</text>
+<rect x="861" y="275" width="180" height="32" rx="5" fill="#f5eadd" stroke="none"/>
+<path d="M870 291L878 291" stroke="#8b512d"/>
+<path d="M874 287L874 295" stroke="#8b512d"/>
+<text x="887" y="296" fill="#8b512d" font-size="12" font-weight="700" font-family="sans-serif">Ajouter une source</text>
+<circle cx="1098" cy="290" r="11" fill="#8b512d" stroke="white" stroke-width="1.5"/>
+<text x="1094.6" y="294" fill="white" font-size="11" font-weight="700" font-family="sans-serif">4</text>
+<text x="862" y="336" fill="#8b512d" font-size="12" font-weight="700" font-family="sans-serif">À qualifier</text>
+<text x="862" y="362" fill="#292622" font-size="11" font-weight="700" font-family="sans-serif">Carnet de terrain A</text>
+<text x="862" y="376" fill="#8b512d" font-size="10" font-weight="700" font-family="sans-serif">À qualifier</text>
+<text x="862" y="398" fill="#292622" font-size="11" font-weight="700" font-family="sans-serif">Étude longitudinale</text>
+<text x="862" y="412" fill="#8b512d" font-size="10" font-weight="700" font-family="sans-serif">Vérifiée</text>
+<text x="862" y="434" fill="#292622" font-size="11" font-weight="700" font-family="sans-serif">Notes du séminaire</text>
+<text x="862" y="448" fill="#8b512d" font-size="10" font-weight="700" font-family="sans-serif">Secondaire</text>
+<rect x="861" y="463" width="248" height="60" rx="5" fill="#f5eadd" stroke="none"/>
+<text x="871" y="483" fill="#8b512d" font-size="9" font-weight="700" font-family="sans-serif">QUESTION ACTIVE</text>
+<text x="871" y="503" fill="#292622" font-size="12" font-weight="700" font-family="sans-serif">Usages hors ligne</text>
+<circle cx="48" cy="582" r="11" fill="#8b512d" stroke="white" stroke-width="1.5"/>
+<text x="44.6" y="586" fill="white" font-size="11" font-weight="700" font-family="sans-serif">1</text>
+<text x="66" y="587" fill="#292622" font-size="13" font-weight="700" font-family="sans-serif">Capturer la provenance</text>
+<text x="37" y="609" fill="#554e46" font-size="11" font-weight="400" font-family="sans-serif">Le formulaire demande la source.</text>
+<circle cx="321" cy="582" r="11" fill="#8b512d" stroke="white" stroke-width="1.5"/>
+<text x="317.6" y="586" fill="white" font-size="11" font-weight="700" font-family="sans-serif">2</text>
+<text x="339" y="587" fill="#292622" font-size="13" font-weight="700" font-family="sans-serif">Trier par maturité</text>
+<text x="310" y="609" fill="#554e46" font-size="11" font-weight="400" font-family="sans-serif">À qualifier ne veut pas dire rejetée.</text>
+<circle cx="594" cy="582" r="11" fill="#8b512d" stroke="white" stroke-width="1.5"/>
+<text x="590.6" y="586" fill="white" font-size="11" font-weight="700" font-family="sans-serif">3</text>
+<text x="612" y="587" fill="#292622" font-size="13" font-weight="700" font-family="sans-serif">Relier plutôt que dupliquer</text>
+<text x="583" y="609" fill="#554e46" font-size="11" font-weight="400" font-family="sans-serif">Une source peut servir deux questions.</text>
+<circle cx="867" cy="582" r="11" fill="#8b512d" stroke="white" stroke-width="1.5"/>
+<text x="863.6" y="586" fill="white" font-size="11" font-weight="700" font-family="sans-serif">4</text>
+<text x="885" y="587" fill="#292622" font-size="13" font-weight="700" font-family="sans-serif">Mobile : une liste compacte</text>
+<text x="856" y="609" fill="#554e46" font-size="11" font-weight="400" font-family="sans-serif">Laisser les détails dans la fiche.</text>
+<path d="M35 635L1124 635" stroke="#ded8ce"/>
+<text x="36" y="662" fill="#8b422d" font-size="12" font-weight="700" font-family="sans-serif">À ÉVITER   /   AVANT</text>
+<rect x="35" y="673" width="97" height="29" rx="4" fill="#eee6dc" stroke="none"/>
+<text x="44" y="692" fill="#754739" font-size="9" font-weight="700" font-family="sans-serif">DOSSIER A</text>
+<rect x="140" y="673" width="97" height="29" rx="4" fill="#eee6dc" stroke="none"/>
+<text x="149" y="692" fill="#754739" font-size="9" font-weight="700" font-family="sans-serif">DOSSIER B</text>
+<rect x="245" y="673" width="97" height="29" rx="4" fill="#eee6dc" stroke="none"/>
+<text x="254" y="692" fill="#754739" font-size="9" font-weight="700" font-family="sans-serif">DOSSIER C</text>
+<rect x="350" y="673" width="97" height="29" rx="4" fill="#eee6dc" stroke="none"/>
+<text x="359" y="692" fill="#754739" font-size="9" font-weight="700" font-family="sans-serif">DOSSIER D</text>
+<text x="36" y="725" fill="#514841" font-size="12" font-weight="400" font-family="sans-serif">Un même article finit copié dans plusieurs dossiers.</text>
+<text x="542" y="662" fill="#8b512d" font-size="12" font-weight="700" font-family="sans-serif">À REPRODUIRE   /   CORRECTION</text>
+<rect x="541" y="673" width="583" height="50" rx="5" fill="#f5eadd" stroke="none"/>
+<text x="555" y="704" fill="#302c27" font-size="14" font-weight="700" font-family="sans-serif">Une fiche source, des relations et des vues par question.</text>
+<path d="M35 746L1124 746" stroke="#ded8ce"/>
+<text x="36" y="767" fill="#625950" font-size="11" font-weight="400" font-family="sans-serif">Comportement représenté, non testé dans Notion  ·  Voir la fiche et la recette associée.</text>
+</svg>

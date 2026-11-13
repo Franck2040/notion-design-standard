@@ -167,3 +167,9 @@ Pour une modification ponctuelle, ne pas imposer tout le processus de divergence
 5. **Proportionnalité** : pour une petite retouche sans véritable choix architectural, ne pas multiplier études et maquettes. Prioriser la plus petite intervention utile et testable.
 
 Tout agent doit annoncer les limites d'outil dès qu'elles sont détectées, avant de promettre un bouton Notion opérationnel ou un test mobile.
+
+## 13. Passer du concept à l’implémentation (v1.4)
+
+- Pour une conception significative, consulter l’[atlas annoté](visual-atlas/README.md), identifier le repère qui sert la tâche et noter au moins une adaptation au domaine. Ne pas livrer une maquette comme preuve de configuration.
+- Pour chaque interaction prévue, associer une [recette](implementation-recipes/README.md) ou expliciter le même contrat : canal, cibles, droits, forfait, vérification, repli et retour arrière. Appliquer le pré-vol avant toute promesse, en particulier pour les boutons, formulaires et dispositions.
+- Utiliser le [journal de recette](implementation-recipes/data-and-qa.md#journal-de-recette). Un clic, une relecture des données et un contrôle mobile sont trois preuves séparées. Ne jamais publier les preuves privées dans ce dépôt.

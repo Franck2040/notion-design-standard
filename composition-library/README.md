@@ -54,3 +54,7 @@
 - [Notion — mises en page](https://www.notion.com/fr/help/layouts)
 - [Notion — dashboard view](https://www.notion.com/help/dashboards) : vue réservée aux plans Business et Enterprise selon l'aide consultée en novembre 2026 ; **ne pas la présumer disponible**.
 - [Notion — blocs synchronisés](https://www.notion.com/en-gb/help/synced-blocks)
+
+## Démonstrations visuelles
+
+L’[atlas annoté](../visual-atlas/README.md) met en image trois compositions (cockpit, galerie créative et bibliothèque de recherche), chacune avec un contre-exemple et un ordre de lecture mobile. Réutiliser la hiérarchie si le besoin la justifie, pas la disposition entière par défaut.

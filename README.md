@@ -115,3 +115,10 @@ Le manuel reste le référentiel de principes. Les nouveaux modules servent à p
 `AGENTS.md` → `research-playbook` (faits, contexte et questions) → `divergence-selection` (3 concepts et arbitrages) → `direction-engine` (identité de la solution retenue) → `composition-library` (composition) → `component-catalog` (capacités natives) → prototype → tests réels → documentation.
 
 La chaîne est proportionnelle à la mission : ne pas imposer trois prototypes pour corriger une simple icône. **Les étapes 1 à 3 documentent des composants et compositions, mais n'offrent pas encore une bibliothèque de composants visuellement testés et importables**. Les étapes 4 à 5 sont des protocoles publiés, pas des tests déjà effectués.
+
+## Modules d’exécution v1.4 — étapes 06 et 07
+
+6. **[Atlas visuel annoté](visual-atlas/README.md)** — trois planches originales, variantes bureau et mobile, interactions attendues, contre-exemples et adaptations. Les maquettes ne sont pas des captures natives.
+7. **[Manuel d’implémentation reproductible](implementation-recipes/README.md)** — neuf recettes, méthodes interface/REST/connecteur, droits, forfaits, jeux d’essai et replis.
+
+Pour passer d’un concept à un espace utilisable, choisir une planche, appliquer le contrat de faisabilité à sa recette, puis valider le geste et le résultat persistant. L’acceptation reste liée à l’environnement et aux rôles réellement testés.

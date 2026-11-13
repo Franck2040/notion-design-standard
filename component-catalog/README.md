@@ -77,3 +77,7 @@
 - [SynergyFlowLabs/notion-arena](https://github.com/SynergyFlowLabs/notion-arena) (widgets externes, vérifier licence/conditions fichier par fichier)
 
 **Aucun code, visuel, composant ou texte de template tiers n'a été copié** dans ce catalogue. Les recettes ont été rédigées pour ce projet.
+
+## Passer de la fiche à la configuration
+
+Pour les boutons, formulaires, vues, galeries, panneaux et relations, ouvrir le [manuel d’implémentation](../implementation-recipes/README.md). Il distingue configuration native, écriture directe des données et preuve d’interaction. L’[atlas](../visual-atlas/README.md) montre où placer les composants selon le parcours.

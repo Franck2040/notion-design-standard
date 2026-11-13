@@ -142,3 +142,5 @@ Après échec, corriger **la cause de la friction**, pas ajouter seulement une a
 L'agent fournit une [fiche de comparaison](comparison-template.md) et un [rapport de recette](../docs/06-acceptance-tests.md) : hypothèses explorées, choix, limites, modifications réelles, preuves, résultats, régressions, prochaines corrections. « Prototype », « configuré » et « terminé » sont trois états distincts.
 
 Voir aussi les [deux exercices d'application](examples.md).
+
+Pour préparer le prototype retenu, se servir de l’[atlas annoté](../visual-atlas/README.md) comme référence de composition, puis sélectionner les [recettes natives](../implementation-recipes/README.md) correspondant au parcours. Une variante mobile dessinée ne remplace pas un test sur appareil.

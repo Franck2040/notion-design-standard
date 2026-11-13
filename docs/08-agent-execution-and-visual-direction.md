@@ -94,3 +94,7 @@ Critères minimum : création, édition, classement, recherche, planification, a
 Ce dépôt public ne doit jamais contenir de contenu de notes privées, de CV, d'informations financières, d'URLs de partage privées ou de captures personnelles. Le journal de l'espace Notion privé doit décrire les anomalies réelles et contenir les références internes. Le dépôt stocke exclusivement la méthode réutilisable.
 
 **Voir** : [AGENTS.md](../AGENTS.md), [04 — Layout](04-layout-patterns.md), [05 — Implementation](05-notion-implementation.md), [06 — Acceptance tests](06-acceptance-tests.md).
+
+## I. Recettes liées au contrat
+
+Passer du pré-vol aux [recettes R01–R09](../implementation-recipes/README.md) pour renseigner la méthode par canal, les droits et le repli. La [planche cockpit](../visual-atlas/README.md#01--le-cockpit-du-jour) montre la place de « Nouvelle note » sans attester son fonctionnement. Pour déclarer le parcours validé, jouer le [cas complet et son journal](../implementation-recipes/data-and-qa.md#journal-de-recette), dans le rôle et sur les appareils pertinents.
