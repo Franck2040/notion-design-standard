@@ -49,3 +49,10 @@ Un futur agent peut proposer un autre design que celui du manuel **s'il explique
 - **Décision** : séparer la documentation publique des audits et données personnelles hébergés dans l'espace privé.
 
 Les détails normatifs figurent dans [08 — Contrat d'exécution et direction visuelle](docs/08-agent-execution-and-visual-direction.md).
+
+## 2026-11-13 — v1.5 : variantes, téléphone et évolution
+
+- Étendre les dix compositions sans les transformer en gabarits universels. Garder la référence Notion publique distincte de l’illustration originale.
+- Documenter les interactions par ID stable et l’ouverture des fiches séparément du panneau de détails.
+- Concevoir le premier geste mobile selon le contexte. Réutiliser les mêmes données même si le chemin d’entrée change.
+- Maintenir les règles à partir d’un signal et d’un test reproductible. Les benchmarks du guide restent à exécuter dans l’espace cible.

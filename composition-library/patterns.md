@@ -2,6 +2,8 @@
 
 > Croquis **originaux** et réutilisables comme inspiration. Ils ne constituent pas une mise en œuvre validée. Chaque fiche explicite objets, interaction, sources, mobile et risques. Adaptez l'ordre et l'esthétique au brief ; ne pas garder le même squelette par habitude.
 
+Voir les [dix planches illustrées et exemples Notion](visual-cards.md) pour les proportions, les blocs natifs et les références externes.
+
 ## 01 — Cockpit focalisé
 
 **Problème** : connaître immédiatement la prochaine action sans parcourir des bases entières. **Utilisateurs** : travail individuel, vie quotidienne, petite équipe.

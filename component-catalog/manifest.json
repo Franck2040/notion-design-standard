@@ -1,6 +1,6 @@
 {
   "project": "Notion Design Standard",
-  "revision": "1.0.0",
+  "revision": "1.1.0",
   "reviewed_at": "2026-11-13",
   "confidence": "Capability classification based on documentation review, not tested inside every user account.",
   "rules": [
@@ -53,14 +53,15 @@
       "scope": "native",
       "condition": "page",
       "implementation_status": "documented-not-live-tested",
-      "reference": "component-catalog/native-components.md",
+      "reference": "component-catalog/interaction-cards.md#n03",
       "required_evidence": [
         "source identified",
         "capability verified",
         "configuration read back",
         "interaction tested when applicable",
         "mobile checked"
-      ]
+      ],
+      "official_source": "https://developers.notion.com/reference/block"
     },
     {
       "id": "N04",
@@ -87,14 +88,15 @@
       "scope": "native",
       "condition": "page",
       "implementation_status": "documented-not-live-tested",
-      "reference": "component-catalog/native-components.md",
+      "reference": "component-catalog/interaction-cards.md#n05",
       "required_evidence": [
         "source identified",
         "capability verified",
         "configuration read back",
         "interaction tested when applicable",
         "mobile checked"
-      ]
+      ],
+      "official_source": "https://www.notion.com/help/columns-headings-and-dividers"
     },
     {
       "id": "N06",
@@ -104,14 +106,15 @@
       "scope": "native",
       "condition": "page",
       "implementation_status": "documented-not-live-tested",
-      "reference": "component-catalog/native-components.md",
+      "reference": "component-catalog/interaction-cards.md#n06",
       "required_evidence": [
         "source identified",
         "capability verified",
         "configuration read back",
         "interaction tested when applicable",
         "mobile checked"
-      ]
+      ],
+      "official_source": "https://www.notion.com/help/mentions"
     },
     {
       "id": "N07",
@@ -138,14 +141,15 @@
       "scope": "native",
       "condition": "plan-and-permission-check",
       "implementation_status": "documented-not-live-tested",
-      "reference": "component-catalog/native-components.md",
+      "reference": "component-catalog/interaction-cards.md#n08",
       "required_evidence": [
         "source identified",
         "capability verified",
         "configuration read back",
         "interaction tested when applicable",
         "mobile checked"
-      ]
+      ],
+      "official_source": "https://www.notion.com/help/buttons"
     },
     {
       "id": "N09",
@@ -223,14 +227,15 @@
       "scope": "native",
       "condition": "database-view",
       "implementation_status": "documented-not-live-tested",
-      "reference": "component-catalog/native-components.md",
+      "reference": "component-catalog/interaction-cards.md#n13",
       "required_evidence": [
         "source identified",
         "capability verified",
         "configuration read back",
         "interaction tested when applicable",
         "mobile checked"
-      ]
+      ],
+      "official_source": "https://www.notion.com/help/views-filters-and-sorts"
     },
     {
       "id": "N14",
@@ -274,14 +279,15 @@
       "scope": "native",
       "condition": "plan-and-permission-check",
       "implementation_status": "documented-not-live-tested",
-      "reference": "component-catalog/native-components.md",
+      "reference": "component-catalog/interaction-cards.md#n16",
       "required_evidence": [
         "source identified",
         "capability verified",
         "configuration read back",
         "interaction tested when applicable",
         "mobile checked"
-      ]
+      ],
+      "official_source": "https://www.notion.com/help/forms"
     },
     {
       "id": "N17",
@@ -291,14 +297,15 @@
       "scope": "native",
       "condition": "plan-and-permission-check",
       "implementation_status": "documented-not-live-tested",
-      "reference": "component-catalog/native-components.md",
+      "reference": "component-catalog/interaction-cards.md#n17",
       "required_evidence": [
         "source identified",
         "capability verified",
         "configuration read back",
         "interaction tested when applicable",
         "mobile checked"
-      ]
+      ],
+      "official_source": "https://www.notion.com/help/database-buttons"
     },
     {
       "id": "N18",
@@ -342,14 +349,15 @@
       "scope": "native",
       "condition": "all-pages-in-database",
       "implementation_status": "documented-not-live-tested",
-      "reference": "component-catalog/native-components.md",
+      "reference": "component-catalog/interaction-cards.md#n20",
       "required_evidence": [
         "source identified",
         "capability verified",
         "configuration read back",
         "interaction tested when applicable",
         "mobile checked"
-      ]
+      ],
+      "official_source": "https://www.notion.com/help/layouts"
     },
     {
       "id": "N21",
@@ -418,6 +426,78 @@
         "interaction tested when applicable",
         "mobile checked"
       ]
+    },
+    {
+      "id": "N25",
+      "slug": "linked-view",
+      "notion_kind": "view",
+      "intent": "Montrer les mêmes objets dans un autre contexte sans copier la base",
+      "scope": "native",
+      "condition": "available-in-target-view-and-channel",
+      "implementation_status": "documented-not-live-tested",
+      "required_evidence": [
+        "source identified",
+        "capability verified",
+        "configuration read back",
+        "interaction tested when applicable",
+        "mobile checked"
+      ],
+      "reference": "component-catalog/interaction-cards.md#n25",
+      "official_source": "https://www.notion.com/help/sharing-and-permissions"
+    },
+    {
+      "id": "N26",
+      "slug": "filter-sort",
+      "notion_kind": "view-option",
+      "intent": "Répondre à une question de périmètre, par exemple les échéances ouvertes",
+      "scope": "native",
+      "condition": "available-in-target-view-and-channel",
+      "implementation_status": "documented-not-live-tested",
+      "required_evidence": [
+        "source identified",
+        "capability verified",
+        "configuration read back",
+        "interaction tested when applicable",
+        "mobile checked"
+      ],
+      "reference": "component-catalog/interaction-cards.md#n26",
+      "official_source": "https://www.notion.com/help/views-filters-and-sorts"
+    },
+    {
+      "id": "N27",
+      "slug": "view-tab",
+      "notion_kind": "view-navigation",
+      "intent": "Alterner entre différentes questions sur une même base; pas entre pages sans rapport",
+      "scope": "native",
+      "condition": "available-in-target-view-and-channel",
+      "implementation_status": "documented-not-live-tested",
+      "required_evidence": [
+        "source identified",
+        "capability verified",
+        "configuration read back",
+        "interaction tested when applicable",
+        "mobile checked"
+      ],
+      "reference": "component-catalog/interaction-cards.md#n27",
+      "official_source": "https://www.notion.com/help/views-filters-and-sorts"
+    },
+    {
+      "id": "N28",
+      "slug": "page-open-mode",
+      "notion_kind": "view-option",
+      "intent": "Consulter le détail sans perdre le contexte; préférer pleine page pour lecture longue",
+      "scope": "native",
+      "condition": "available-in-target-view-and-channel",
+      "implementation_status": "documented-not-live-tested",
+      "required_evidence": [
+        "source identified",
+        "capability verified",
+        "configuration read back",
+        "interaction tested when applicable",
+        "mobile checked"
+      ],
+      "reference": "component-catalog/interaction-cards.md#n28",
+      "official_source": "https://www.notion.com/help/views-filters-and-sorts"
     }
   ],
   "manifest_format": "component-inventory-v1"

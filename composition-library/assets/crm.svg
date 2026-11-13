@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" width="1000" height="500" role="img"><title>CRM de suivi</title><desc>Savoir qui relancer et retrouver le dernier échange. Bureau Relances et historique et Pipeline. Téléphone Relances → contact → ajout d’échange.</desc>
+<rect x="0" y="0" width="1000" height="500" rx="0" fill="#f5f1eb"/>
+<rect x="0" y="0" width="1000" height="6" rx="0" fill="#20595b"/>
+<text x="27" y="39" font-family="sans-serif" font-size="12" fill="#20595b" font-weight="700">P08  /  COMPOSITION NOTION  /  PÉTROLE</text>
+<text x="26" y="87" font-family="serif" font-size="39" fill="#262120" font-weight="400">CRM de suivi</text>
+<text x="28" y="113" font-family="sans-serif" font-size="15" fill="#292625" font-weight="400">Savoir qui relancer et retrouver le dernier échange</text>
+<text x="27" y="152" font-family="sans-serif" font-size="11" fill="#20595b" font-weight="700">BUREAU  /  65 / 35</text>
+<text x="750" y="152" font-family="sans-serif" font-size="11" fill="#20595b" font-weight="700">TÉLÉPHONE  /  ORDRE CIBLE</text>
+<rect x="26" y="164" width="699" height="289" rx="10" fill="#fff"/>
+<rect x="750" y="164" width="224" height="289" rx="10" fill="#fff"/>
+<rect x="42" y="178" width="666" height="45" rx="6" fill="#20595b"/>
+<text x="54" y="207" font-family="serif" font-size="20" fill="#fff" font-weight="400">CRM de suivi</text>
+<rect x="42" y="232" width="232" height="28" rx="5" fill="#f2ece3"/>
+<text x="53" y="251" font-family="sans-serif" font-size="13" fill="#20595b" font-weight="700">Consigner un échange</text>
+<text x="43" y="285" font-family="sans-serif" font-size="13" fill="#20595b" font-weight="700">Relances dues</text>
+<text x="43" y="312" font-family="sans-serif" font-size="13" fill="#292625" font-weight="700">Atelier Iris · Aujourd’hui</text>
+<rect x="43" y="323" width="421" height="1" rx="0" fill="#ddd6cd"/>
+<text x="43" y="350" font-family="sans-serif" font-size="13" fill="#292625" font-weight="400">Bureau Nord · Demain</text>
+<rect x="43" y="361" width="421" height="1" rx="0" fill="#ddd6cd"/>
+<text x="43" y="388" font-family="sans-serif" font-size="13" fill="#292625" font-weight="400">Équipe Delta · Vendredi</text>
+<rect x="43" y="399" width="421" height="1" rx="0" fill="#ddd6cd"/>
+<rect x="481" y="282" width="226" height="124" rx="6" fill="#f3ede7"/>
+<text x="491" y="306" font-family="sans-serif" font-size="11" fill="#20595b" font-weight="700">Pipeline</text>
+<text x="491" y="336" font-family="sans-serif" font-size="12" fill="#292625" font-weight="400">2 dossiers en revue</text>
+<text x="43" y="432" font-family="sans-serif" font-size="11" fill="#20595b" font-weight="700">Pipeline</text>
+<rect x="762" y="177" width="200" height="43" rx="6" fill="#20595b"/>
+<text x="771" y="204" font-family="serif" font-size="15" fill="white" font-weight="400">CRM de suivi</text>
+<rect x="762" y="233" width="200" height="31" rx="5" fill="#f3ece3"/>
+<text x="770" y="253" font-family="sans-serif" font-size="12" fill="#20595b" font-weight="700">Consigner un échange</text>
+<rect x="762" y="276" width="24" height="24" rx="4" fill="#efe7dd"/>
+<text x="770" y="292" font-family="sans-serif" font-size="11" fill="#20595b" font-weight="700">1</text>
+<text x="792" y="292" font-family="sans-serif" font-size="12" fill="#292625" font-weight="700">Relances</text>
+<rect x="762" y="305" width="200" height="1" rx="0" fill="#ddd6cd"/>
+<rect x="762" y="321" width="24" height="24" rx="4" fill="#efe7dd"/>
+<text x="770" y="337" font-family="sans-serif" font-size="11" fill="#20595b" font-weight="700">2</text>
+<text x="792" y="337" font-family="sans-serif" font-size="12" fill="#292625" font-weight="700">contact</text>
+<rect x="762" y="350" width="200" height="1" rx="0" fill="#ddd6cd"/>
+<rect x="762" y="366" width="24" height="24" rx="4" fill="#efe7dd"/>
+<text x="770" y="382" font-family="sans-serif" font-size="11" fill="#20595b" font-weight="700">3</text>
+<text x="792" y="382" font-family="sans-serif" font-size="12" fill="#292625" font-weight="700">ajout d’échange</text>
+<rect x="762" y="395" width="200" height="1" rx="0" fill="#ddd6cd"/>
+<text x="28" y="481" font-family="sans-serif" font-size="11" fill="#20595b" font-weight="700">MAQUETTE ORIGINALE  ·  DONNÉES FICTIVES  ·  PAS UNE CAPTURE DE NOTION</text>
+</svg>

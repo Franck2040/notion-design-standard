@@ -122,3 +122,10 @@ La chaîne est proportionnelle à la mission : ne pas imposer trois prototypes p
 7. **[Manuel d’implémentation reproductible](implementation-recipes/README.md)** — neuf recettes, méthodes interface/REST/connecteur, droits, forfaits, jeux d’essai et replis.
 
 Pour passer d’un concept à un espace utilisable, choisir une planche, appliquer le contrat de faisabilité à sa recette, puis valider le geste et le résultat persistant. L’acceptation reste liée à l’environnement et aux rôles réellement testés.
+
+## Mise à jour v1.5 — compositions, interactions, mobile et maintenance
+
+- **02** — [Dix compositions illustrées](composition-library/visual-cards.md), avec références Notion réelles distinctes des maquettes.
+- **03** — [Douze cartes d’interaction](component-catalog/interaction-cards.md) et 28 entrées dans l’inventaire.
+- **08** — [Cinq stratégies mobile-first](mobile-first/README.md) selon le geste et le contexte.
+- **10** — [Maintenance et apprentissage](maintenance/README.md) avec registre, benchmarks à rejouer et contrôle de cohérence local.

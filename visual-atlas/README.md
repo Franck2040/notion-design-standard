@@ -43,3 +43,5 @@
 4. Étiqueter `MAQUETTE` (visuel original), `CAPTURE NATIVE` (rendu observé) ou `CAPTURE NATIVE + TEST` (rendu et action contrôlés, avec journal). Pour une capture publique : espace de test, données fictives, aucun identifiant personnel ni template tiers sans droit. Une capture native seule ne prouve pas un clic.
 
 Les trois SVG sont autonomes et ne chargent ni police distante, ni image tierce. Source éditable dans [assets](assets/).
+
+Pour les autres compositions, consulter les [dix planches de la bibliothèque](../composition-library/visual-cards.md), qui associent également une référence Notion publique à chaque maquette originale.

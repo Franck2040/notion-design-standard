@@ -173,3 +173,9 @@ Tout agent doit annoncer les limites d'outil dès qu'elles sont détectées, ava
 - Pour une conception significative, consulter l’[atlas annoté](visual-atlas/README.md), identifier le repère qui sert la tâche et noter au moins une adaptation au domaine. Ne pas livrer une maquette comme preuve de configuration.
 - Pour chaque interaction prévue, associer une [recette](implementation-recipes/README.md) ou expliciter le même contrat : canal, cibles, droits, forfait, vérification, repli et retour arrière. Appliquer le pré-vol avant toute promesse, en particulier pour les boutons, formulaires et dispositions.
 - Utiliser le [journal de recette](implementation-recipes/data-and-qa.md#journal-de-recette). Un clic, une relecture des données et un contrôle mobile sont trois preuves séparées. Ne jamais publier les preuves privées dans ce dépôt.
+
+## 14. Composer pour le téléphone et maintenir les règles
+
+- Choisir une [composition illustrée](composition-library/visual-cards.md) et des [cartes d’interaction](component-catalog/interaction-cards.md) selon la décision utilisateur. Distinguer maquette, référence Notion publique et preuve d’un test dans le compte.
+- Quand le mobile fait partie du brief, choisir un [parcours mobile-first](mobile-first/README.md) et tester l’ordre, la saisie, le retour et les états dégradés. Ne pas substituer la maquette à l’appareil.
+- Pour toute nouvelle règle, suivre le [protocole de maintenance](maintenance/README.md) : motif, exemple, contre-exemple et vérification. Contrôler le registre et les liens avec `python3 scripts/check_standard.py`.

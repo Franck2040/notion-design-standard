@@ -1,6 +1,6 @@
-# Catalogue de composants Notion — index v1.0
+# Catalogue de composants Notion — index v1.1
 
-> 24 fiches identifiées, dont 16 composants de base et 8 patterns composites. **Catalogue de sélection et de recette, non code directement exécutable**. Il distingue fonctionnalités natives, limitations du forfait et widgets externes. Pour l'implémentation, consulter [fiches détaillées](native-components.md) et [manifest JSON](manifest.json).
+> 28 entrées d’inventaire N01–N28, dont un embed externe explicitement identifié, et 8 patterns composites C01–C08. **Catalogue de sélection et de recette, non code directement exécutable**. Il distingue fonctionnalités natives, limitations du forfait et widgets externes. Pour l'implémentation, consulter [fiches détaillées](native-components.md) et [manifest JSON](manifest.json).
 
 ## Règles d'utilisation pour les agents
 
@@ -40,6 +40,10 @@
 | N22 | Dashboard view | Plusieurs widgets de données | **Business/Enterprise** selon doc 2026 |
 | N23 | Embed externe | Horloge/météo/outil | Externe, connexion/performance/privacy |
 | N24 | Bloc de fichiers et média | Lecture / illustration | Natif, licences et permissions |
+| N25 | Vue liée | Réutiliser une source | Accès à la source requis |
+| N26 | Filtre et tri | Réduire le périmètre | Pas une permission |
+| N27 | Onglet de vue | Changer de question | Tester la visibilité mobile |
+| N28 | Ouverture de fiche | Garder le contexte | Dépend de la vue et de l’appareil |
 
 ## Patterns composites (combinaisons, pas composants Notion séparés)
 
@@ -81,3 +85,7 @@
 ## Passer de la fiche à la configuration
 
 Pour les boutons, formulaires, vues, galeries, panneaux et relations, ouvrir le [manuel d’implémentation](../implementation-recipes/README.md). Il distingue configuration native, écriture directe des données et preuve d’interaction. L’[atlas](../visual-atlas/README.md) montre où placer les composants selon le parcours.
+
+## Cartes d’interaction
+
+Consulter les [12 fiches ciblées](interaction-cards.md) pour les variantes, paramètres, limites et tests des gestes courants. Les IDs restent stables et le [manifest](manifest.json) pointe vers ces cartes pour les composants concernés.

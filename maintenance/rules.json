@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "rules": [
+    {
+      "id": "RGL-001",
+      "status": "active",
+      "scope": "actions natives",
+      "motif": "Un bouton visible ne prouve pas une écriture réussie.",
+      "example": "Cliquer Nouvelle note et retrouver la fiche sous le même ID dans Inbox.",
+      "counterexample": "Créer une page par API puis déclarer le bouton testé.",
+      "verification": "Jouer la chaîne comme utilisateur final et comparer l’ID et les valeurs persistées.",
+      "evidence": "Règle documentaire; essai local requis.",
+      "owner": "Mainteneur du dépôt",
+      "canonical": "implementation-recipes/data-and-qa.md#journal-de-recette"
+    },
+    {
+      "id": "RGL-002",
+      "status": "active",
+      "scope": "vues et droits",
+      "motif": "Un filtre structure la lecture et ne constitue pas une permission.",
+      "example": "Tester l’accès du lecteur dans la source et dans la vue.",
+      "counterexample": "Partager une vue filtrée et présumer les autres fiches privées.",
+      "verification": "Faire le contrôle avec un rôle de lecture réellement distinct, sur la vue et sur la source.",
+      "evidence": "Aide officielle et recette R04.",
+      "owner": "Mainteneur du dépôt",
+      "canonical": "component-catalog/interaction-cards.md#n25"
+    },
+    {
+      "id": "RGL-003",
+      "status": "active",
+      "scope": "mobile",
+      "motif": "Le premier geste sur téléphone diffère souvent de celui sur bureau.",
+      "example": "Montrer les prochaines publications en liste avant le calendrier.",
+      "counterexample": "Empiler les blocs du bureau dans le même ordre et appeler cela mobile-first.",
+      "verification": "Vérifier sur téléphone réel ou émulateur nommé que la prochaine publication se trouve sans ouvrir le calendrier.",
+      "evidence": "Cible de conception; essai local requis.",
+      "owner": "Mainteneur du dépôt",
+      "canonical": "mobile-first/patterns.md#m02"
+    },
+    {
+      "id": "RGL-004",
+      "status": "active",
+      "scope": "preuves visuelles",
+      "motif": "Une planche et une capture native n’ont pas la même valeur de preuve.",
+      "example": "Étiqueter un SVG original comme maquette, puis lier une référence native distincte.",
+      "counterexample": "Présenter le bouton dessiné comme installé dans Notion.",
+      "verification": "Contrôler le label de preuve et exiger une trace distincte pour toute interaction annoncée comme testée.",
+      "evidence": "Règle documentaire; aucun test natif revendiqué.",
+      "owner": "Mainteneur du dépôt",
+      "canonical": "composition-library/visual-cards.md"
+    }
+  ]
+}
