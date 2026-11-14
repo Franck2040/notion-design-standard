@@ -48,6 +48,42 @@
       "evidence": "Règle documentaire; aucun test natif revendiqué.",
       "owner": "Mainteneur du dépôt",
       "canonical": "composition-library/visual-cards.md"
+    },
+    {
+      "id": "RGL-005",
+      "status": "active",
+      "scope": "onboarding et conversion",
+      "motif": "Un template livré vide ou sans guide pas à pas provoque l'abandon dès les premières minutes.",
+      "example": "Pré-remplir 3 à 5 fiches de démo réalistes et inclure une checklist 'Démarrer en 5 minutes' en haut de l'accueil.",
+      "counterexample": "Livrer des bases vides ou une vidéo muette rapide sans explication écrite.",
+      "verification": "Dupliquer le template dans un compte vierge et chronométrer la première action d'un utilisateur sans aide externe.",
+      "evidence": "Synthèse d'avis clients vérifiés Etsy (2024-2025).",
+      "owner": "Mainteneur du dépôt",
+      "canonical": "docs/07-commercialization.md#8-règles-ux-et-conversion-issues-du-marché"
+    },
+    {
+      "id": "RGL-006",
+      "status": "active",
+      "scope": "portail client et droits",
+      "motif": "Partager une vue filtrée d'une base interne ne protège pas les données des autres clients.",
+      "example": "Créer une page portail client dédiée par client, séparée des finances et des autres dossiers.",
+      "counterexample": "Partager la base Projets globale avec un simple filtre sur le nom du client.",
+      "verification": "Ouvrir le lien partagé depuis un compte invité distinct et vérifier qu'aucune autre fiche ni marge interne n'est accessible.",
+      "evidence": "Règle architecture Notion et retours utilisateurs portails clients.",
+      "owner": "Mainteneur du dépôt",
+      "canonical": "docs/07-commercialization.md#8-règles-ux-et-conversion-issues-du-marché"
+    },
+    {
+      "id": "RGL-007",
+      "status": "active",
+      "scope": "duplication commerciale",
+      "motif": "Des relations, formules ou réglages AI du créateur peuvent casser ou bloquer l'acheteur lors de la duplication.",
+      "example": "Tester la duplication intégrale vers un workspace Notion gratuit neuf avant publication.",
+      "counterexample": "Tester uniquement dans le workspace d'origine du créateur.",
+      "verification": "Dupliquer vers un compte neuf et contrôler 100 % des liens, formules, vues et boutons.",
+      "evidence": "Avis critiques récurrents sur Etsy (liens cassés et permissions AI).",
+      "owner": "Mainteneur du dépôt",
+      "canonical": "docs/07-commercialization.md#8-règles-ux-et-conversion-issues-du-marché"
     }
   ]
 }

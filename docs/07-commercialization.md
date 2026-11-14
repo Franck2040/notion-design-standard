@@ -87,3 +87,22 @@ Recueillir plutôt :
 **Public** : principes de design, schémas génériques, échantillons fictifs, captures censurées, procédures et exemples conçus pour être partagés.
 
 Le dépôt public des standards **ne doit pas** héberger l'export du workspace. Un agent peut utiliser les deux environnements avec autorisation, mais ne les fusionne pas.
+
+## 8. Règles UX et conversion issues du marché
+
+Les retours clients vérifiés sur les marketplaces (Etsy, Notion Marketplace) montrent trois causes majeures d'abandon ou de mauvaises notes sur les templates commerciaux :
+
+### Zéro page blanche et onboarding guidé
+- **Motif** : un template livré avec des bases vides ou un tutoriel vidéo muet trop rapide décourage les utilisateurs débutants dès les 5 premières minutes.
+- **Bonne pratique** : pré-remplir 3 à 5 fiches de démonstration réalistes (facilement identifiables via un tag ou statut `Démo`) et placer un encart repliable « Démarrer en 5 minutes » en haut de l'accueil avec une checklist d'installation pas à pas.
+- **Contre-exemple** : livrer des tableaux vides ou une page d'aide externe de 30 minutes sans repères visuels dans l'espace.
+
+### Isolation du portail client
+- **Motif** : partager une vue filtrée d'une base interne expose potentiellement les autres clients si l'utilisateur remonte à la source.
+- **Bonne pratique** : concevoir le portail client comme une page dédiée par client (issue d'un modèle de fiche) ne contenant que les informations partageables (brief, livrables, compteur de révisions, liens de fichiers), séparée des bases financières internes.
+- **Contre-exemple** : partager la base Projets globale avec un simple filtre visuel.
+
+### Duplication propre sur compte gratuit vierge
+- **Motif** : des filtres auto-référencés, formules complexes ou réglages Notion AI liés au compte créateur cassent lors de la duplication par l'acheteur.
+- **Bonne pratique** : tester systématiquement la duplication complète sur un workspace Notion gratuit neuf, sans extension payante ni permission AI propriétaire, et vérifier chaque relation, formule et bouton.
+- **Contre-exemple** : valider un template uniquement depuis le workspace de création.
