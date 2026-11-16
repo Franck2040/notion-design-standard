@@ -56,3 +56,9 @@ Les détails normatifs figurent dans [08 — Contrat d'exécution et direction v
 - Documenter les interactions par ID stable et l’ouverture des fiches séparément du panneau de détails.
 - Concevoir le premier geste mobile selon le contexte. Réutiliser les mêmes données même si le chemin d’entrée change.
 - Maintenir les règles à partir d’un signal et d’un test reproductible. Les benchmarks du guide restent à exécuter dans l’espace cible.
+
+## 2026-11-16 — v1.6 : ergonomie quotidienne, navigation sans flèches et limites calendrier
+
+- **Décision — Navigation sans flèches `↗` (`@Page`)** : dans la barre de navigation ou le menu latéral d'un dashboard, placer directement les vraies sous-pages ou bases (`inline="false"`) plutôt que des mentions `@Page`, afin d'éviter les flèches de renvoi `↗` sur les icônes et de garder un menu propre.
+- **Décision — Accès rapide aux tâches et densité réelle** : un utilisateur qui gère simultanément études, travail, projets et quotidien doit tout retrouver vite. Prévoir un accès direct aux tâches dès l'accueil (onglet dédié + page dédiée dans la navigation) sans sur-simplifier son quotidien.
+- **Décision — Limite native du calendrier Notion (pas de grille horaire)** : une vue `Calendar` native dans une page Notion (mois ou semaine) n'affiche pas de colonne d'heures sur la gauche ni de ligne rouge en temps réel. Lorsque l'utilisateur a besoin d'un planning horaire heure par heure (time-blocking à 8 colonnes : heures + 7 jours), le documenter explicitement et orienter vers **Notion Calendar** (`calendar.notion.so`, connecté à la base via « Gérer avec Notion Calendar ») ou un widget dédié — ne jamais laisser croire que la vue calendrier native de Notion sait le faire.
