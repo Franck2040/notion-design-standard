@@ -98,3 +98,17 @@ Ce dépôt public ne doit jamais contenir de contenu de notes privées, de CV, d
 ## I. Recettes liées au contrat
 
 Passer du pré-vol aux [recettes R01–R09](../implementation-recipes/README.md) pour renseigner la méthode par canal, les droits et le repli. La [planche cockpit](../visual-atlas/README.md#01--le-cockpit-du-jour) montre la place de « Nouvelle note » sans attester son fonctionnement. Pour déclarer le parcours validé, jouer le [cas complet et son journal](../implementation-recipes/data-and-qa.md#journal-de-recette), dans le rôle et sur les appareils pertinents.
+
+## J. Retours terrain d'exécution (MCP Notion, navigateur et parité produit)
+
+1. **Ordre impératif MCP puis Navigateur** : construire toute l'architecture (pages, bases, relations, formules, rollups, données de démo, upload de fichiers via `notion-create-file-upload`) par API MCP **en premier**. Une fois les vues visuelles réglées dans le navigateur (Galerie, Aperçu = Contenu de la page, Calendrier, masquage des titres de base), **ne plus modifier les balises `<database>` via `update_content` MCP** : la réinjection MCP réinitialise les vues liées en Tableau par défaut.
+2. **Règles pour l'agent navigateur sur Notion** :
+   - Ouvrir directement `https://app.notion.com/p/<page_id>` (éviter les redirections cross-domain `notion.so` -> `app.notion.com` qui vident les fichiers en attente d'upload).
+   - Donner des tâches courtes et ciblées (1 section par tour) avec clics/saisies natifs ; éviter les longs scripts `eval` qui déclenchent des timeouts OPFS dans Notion (`EVAL_ISOLATED_TIMEOUT`).
+   - Préférer l'API MCP (`notion-create-file-upload` ou URL externe directe pour l'icône) plutôt que le sélecteur de fichier navigateur.
+   - Toujours ouvrir et inspecter les captures finales (haut, milieu, bas) avant de déclarer une étape réussie, afin de détecter immédiatement toute régression de bloc ou de troncature de bouton.
+3. **Ergonomie cockpit et hiérarchie visuelle vérifiée** :
+   - Zéro bannière photo sur l'accueil si l'objectif est un cockpit dense sans scroll inutile.
+   - Micro-copy ultra-courte : libellés d'action en majuscules (`+ PROJET`, `+ TÂCHE`), données en casse normale, zéro tiret cadratin (`—`) et zéro phrase décorative.
+   - Une seule couleur d'accent monochrome sur les icônes natives et vignettes uniformes sur les cartes Galerie pour un rendu logiciel net.
+   - Privilégier des liens ou sous-pages propres quand l'icône de mention `↗` alourdit visuellement la navigation.
